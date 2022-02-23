@@ -1,0 +1,35 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial;
+}
+
+#main-container{
+    margin: 150px auto;
+    width: 600px;
+}
+table{
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+a{
+    padding: 20px;
+}
+
+thead{
+    background-color: #246355;
+    border-bottom: solid 5px #0F362D;
+    color: white;
+}
+
+div:nth-child(even){
+    background-color: #ddd;
+}
+
+div:hover{
+    background-color: #369681;
+    color: white;
+}
+
